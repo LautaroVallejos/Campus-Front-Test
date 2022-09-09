@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png"    />
     <link rel="icon" type="image/png" href="./assets/img/favicon.png" />
+    <link rel="stylesheet" href="/assets/css/slider.css">
 
     <title>Campus JH</title>
 
@@ -66,6 +67,7 @@
               <span class="nav-link-text ms-1">Data Estudiantes</span>
             </a>
           </li>
+          
 
           <li class="nav-item">
             <a class="nav-link text-white" href="./dashboard.html">
@@ -138,6 +140,11 @@
     </aside>
     <!-- Fin del aside -->
 
+         <!-- Fin de la Navbar -->
+
+ 
+  
+
     <!-- Inicio Navbar -->
     <main class="main-content border-radius-lg">
 
@@ -180,7 +187,50 @@
           </div>
         </div>
       </nav>
-      <!-- Fin de la Navbar -->
+
+       
+        <!-- inicio del slider -->
+        <div class="container">
+          <div class="navigation">
+            <div class="previous btn-nav">
+               </div>
+                <div class="next btn-nav">></div>
+            </div>
+            <div class="sarousel-container">
+              <div class="image-fade fade">
+                <img src="https://cdn.pixabay.com/photo/2021/10/03/04/21/woman-6676901_960_720.jpg" style="width:100%">
+                <div class="caption-text">Image caption 1</div>
+              </div>
+        
+              <div class="image-fade fade">
+                <img src="https://cdn.pixabay.com/photo/2021/08/23/04/02/woman-6566600_960_720.jpg" style="width:100%">
+                <div class="caption-text">Image caption 2</div>
+              </div>
+        
+              <div class="image-fade fade">
+                <img src="https://cdn.pixabay.com/photo/2020/09/26/14/27/sparrow-5604220_960_720.jpg" style="width:100%">
+                <div class="caption-text">Image caption 3</div>
+              </div>
+        
+              <div class="image-fade fade">
+                <img src="https://cdn.pixabay.com/photo/2020/05/19/09/21/flower-5189902_960_720.jpg" style="width:100%">
+                <div class="caption-text">Image caption 4</div>
+              </div>
+            </div>
+        
+          </div>
+          <br>
+        
+          <!-- The dots/circles in buttom -->
+          <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+                
+      <!-- Fin del slider -->
+      
 
       <!-- Contenido Principal -->
       <div class="container-fluid py-4">
@@ -190,12 +240,14 @@
       </div>
       <!-- Final del Contenido Principal -->
     </main>
+    
 
     <!--   Core JS Files   -->
     <script src="./assets/js/core/popper.min.js"></script>
     <script src="./assets/js/core/bootstrap.min.js"></script>
     <script src="./assets/js/plugins/perfect-scrollbar.min.js"></script>
     <script src="./assets/js/plugins/smooth-scrollbar.min.js"></script>
+    <script src="./assets/js/slider.js"></script>
 
     <script>
       var win = navigator.platform.indexOf("Win") > -1;
@@ -212,5 +264,6 @@
 
     <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
     <script src="./assets/js/material-dashboard.min.js?v=3.0.4"></script>
+    
   </body>
 </html>
