@@ -62,7 +62,7 @@ const carouselSlider = (function () {
       _slideIndex++;
       _checkSlideIndexBoundary(_slideIndex, _slides);
       // Change image every 5 seconds
-      setTimeout(slide, 5000);
+      setTimeout(slide, 2000);
     };
   
     return {
